@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayne Gaming - Tienda Oficial del Caballero de la Noche</title>
+    <!-- Vinculación a la hoja de estilos externa -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado y Navegación Principal (Flexbox) -->
+    <header class="main-header">
+        <div class="logo-container">
+            <h1 class="logo">Wayne<span>Gaming</span> 🦇</h1>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Baticueva</a></li>
+                <li class="nav-item"><a href="#catalogo" class="nav-link">Juegos de Batman</a></li>
+                <li class="nav-item"><a href="#plataformas" class="nav-link">Plataformas</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Batiseñal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Hero Principal -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <h2>Sé la Noche. Sé la Venganza. Sé Batman.</h2>
+            <p>Accede al arsenal completo de videojuegos del Caballero de la Noche. Desde la trilogía Arkham hasta clásicos inolvidables para todas las plataformas.</p>
+            <a href="#catalogo" class="btn-cta">Explorar Colección Gotham</a>
+        </div>
+    </section>
+
+    <!-- Contenedor Principal (CSS Grid Layout) -->
+    <main class="main-container">
+        
+        <!-- Catálogo de Productos -->
+        <section id="catalogo" class="catalog-section">
+            <h2 class="section-title">Expedientes de Gotham: Juegos Destacados</h2>
+            
+            <div class="product-grid">
+                <!-- Tarjeta 1: Arkham Knight -->
+                <article class="product-card">
+                    <div class="card-badge">Edición Definitiva</div>
+                    <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80" alt="Batman Arkham Knight" class="product-img">
+                    <div class="card-body">
+                        <span class="product-category">Acción / Mundo Abierto</span>
+                        <h3 class="product-title">Batman: Arkham Knight</h3>
+                        <p class="product-description">Conduce el legendario Batmóvil por toda Ciudad Gótica y enfréntate a la amenaza definitiva del Espantapájaros y el Caballero de Arkham.</p>
+                        <div class="card-footer">
+                            <span class="product-price">$24.990</span>
+                            <button class="btn-buy" type="button">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 2: Arkham City -->
+                <article class="product-card">
+                    <div class="card-badge">Aclamado por la Crítica</div>
+                    <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80" alt="Batman Arkham City" class="product-img">
+                    <div class="card-body">
+                        <span class="product-category">Aventura / Sigilo</span>
+                        <h3 class="product-title">Batman: Arkham City - GOTY</h3>
+                        <p class="product-description">Encerrado en la mega-prisión amurallada en el corazón de Gótica, Batman debe sobrevivir a una noche letal con el Joker, Catwoman y Dos Caras.</p>
+                        <div class="card-footer">
+                            <span class="product-price">$18.990</span>
+                            <button class="btn-buy" type="button">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 3: Arkham Asylum -->
+                <article class="product-card">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80" alt="Batman Arkham Asylum" class="product-img">
+                    <div class="card-body">
+                        <span class="product-category">Terror Psicológico / Acción</span>
+                        <h3 class="product-title">Batman: Arkham Asylum</h3>
+                        <p class="product-description">El juego que lo inició todo. Queda atrapado dentro de las instalaciones del infame Asilo Arkham tras la toma de rehenes del Guasón.</p>
+                        <div class="card-footer">
+                            <span class="product-price">$14.990</span>
+                            <button class="btn-buy" type="button">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 4: LEGO Batman 3 -->
+                <article class="product-card">
+                    <div class="card-badge">Familiar / Coop</div>
+                    <img src="https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=600&q=80" alt="LEGO Batman 3" class="product-img">
+                    <div class="card-body">
+                        <span class="product-category">Aventura / Plataformas</span>
+                        <h3 class="product-title">LEGO Batman 3: Beyond Gotham</h3>
+                        <p class="product-description">El Cruzado de la Capa une fuerzas con los superhéroes del universo DC Comics y viaja al espacio exterior para detener al malvado Brainiac.</p>
+                        <div class="card-footer">
+                            <span class="product-price">$12.990</span>
+                            <button class="btn-buy" type="button">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Barra Lateral de Categorías / Filtros (Sidebar) -->
+        <aside class="sidebar" id="plataformas">
+            <h3 class="sidebar-title">Bat-Dispositivos</h3>
+            <ul class="category-list">
+                <li class="category-item"><a href="#">PC / Steam / Epic</a></li>
+                <li class="category-item"><a href="#">PlayStation 5 / PS4</a></li>
+                <li class="category-item"><a href="#">Xbox Series X|S / One</a></li>
+                <li class="category-item"><a href="#">Nintendo Switch (Trilogía)</a></li>
+                <li class="category-item"><a href="#">Colecciones VR / Baticueva</a></li>
+            </ul>
+
+            <div class="newsletter-box">
+                <h4>Alerta de Comisionado</h4>
+                <p>Recibe reportes de inteligencia confidenciales con descuentos exclusivos y lanzamientos de Wayne Enterprises.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="tu-email@gotham.com" class="input-email" required>
+                    <button type="submit" class="btn-subscribe">Activar Batiseñal</button>
+                </form>
+            </div>
+        </aside>
+
+    </main>
+
+    <!-- Pie de Página (Flexbox) -->
+    <footer class="main-footer" id="contacto">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Wayne Enterprises</h4>
+                <p>División de Entretenimiento Interactivo y Tecnología Digital. Diseñado para los defensores de Gotham City.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Archivos Rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Baticueva</a></li>
+                    <li><a href="#catalogo">Catálogo Arkham</a></li>
+                    <li><a href="#plataformas">Sistemas Compatibles</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Canal Seguro GCPD</h4>
+                <p>Frecuencia: bat-soporte@wayneenterprises.com</p>
+                <p>Torre Wayne, Gotham City - Disponible 24/7 en las sombras.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Wayne Gaming Store. BATMAN y todos los personajes relacionados son marcas de DC Comics. Evaluación Frontend I.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
