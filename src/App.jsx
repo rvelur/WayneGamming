@@ -152,7 +152,7 @@ export default function App() {
           <span className="text-secondary small">{productosFiltrados.length} juegos disponibles</span>
         </div>
 
-        {/* RENDERIZADO CONDICIONAL DE CARGA Y ERROR[cite: 27, 28, 32] */}
+        {/* RENDERIZADO CONDICIONAL DE CARGA Y ERROR */}
         {cargando && (
           <div className="text-center py-5">
             <div className="spinner-border text-warning" role="status"></div>
@@ -186,7 +186,7 @@ export default function App() {
                         <div className="d-flex justify-content-between align-items-center mt-3 pt-2 border-top border-secondary">
                           <span className="fs-5 fw-bold text-warning">${p.precio.toLocaleString('es-CL')}</span>
                           
-                          {/* RENDERIZADO CONDICIONAL EN EL BOTÓN[cite: 27, 31, 32] */}
+                          {/* RENDERIZADO CONDICIONAL EN EL BOTÓN */}
                           {isInCart ? (
                             <button className="btn btn-outline-success btn-sm fw-bold" onClick={() => handleAddToCart(p)}>
                               <i className="bi bi-check2"></i> En el carrito (+1)
