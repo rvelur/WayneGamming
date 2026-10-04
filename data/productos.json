@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "titulo": "Batman: Arkham Knight",
+    "categoria": "Acción",
+    "precio": 24990,
+    "descripcion": "Conduce el Batmóvil por toda Gotham y enfrenta la amenaza final del Espantapájaros.",
+    "badge": "Edición Definitiva",
+    "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/208650/header.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Batman: Arkham City - GOTY",
+    "categoria": "Aventura",
+    "precio": 18990,
+    "descripcion": "Sobrevive a una noche letal encerrado en la mega-prisión amurallada contra el Joker.",
+    "badge": "Aclamado",
+    "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/200260/header.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Batman: Arkham Asylum",
+    "categoria": "Acción",
+    "precio": 14990,
+    "descripcion": "El inicio de la leyenda. Atrapado en el manicomio tras el motín desatado por el Guasón.",
+    "badge": "Clásico",
+    "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/35140/header.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "LEGO Batman 3: Beyond Gotham",
+    "categoria": "Aventura",
+    "precio": 12990,
+    "descripcion": "Únete a la Liga de la Justicia y viaja al espacio exterior para detener al malvado Brainiac.",
+    "badge": "Familiar",
+    "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/313690/header.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Batman: The Telltale Series",
+    "categoria": "Aventura",
+    "precio": 15990,
+    "descripcion": "Toma decisiones críticas que afectarán tanto la vida de Bruce Wayne como el manto de Batman.",
+    "badge": "Narrativo",
+    "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/498240/header.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Injustice 2: Legendary Edition",
+    "categoria": "Acción",
+    "precio": 21990,
+    "descripcion": "Lucha contra el régimen totalitario y personaliza tu armadura con tecnología WayneTech.",
+    "badge": "Lucha",
+    "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/627270/header.jpg"
+  }
+]
